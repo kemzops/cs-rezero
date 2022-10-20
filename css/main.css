@@ -1,0 +1,73 @@
+* {
+    font-family: "Cairo";
+}
+
+html, body {
+    color: white;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+  background: red;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+  background: lightgreen;
+}  
+
+.logo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 5px 15px rgb(76, 110, 76);
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
